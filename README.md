@@ -1,7 +1,7 @@
 # App_Review_Classifier
 App reviews play a crucial role in understanding users' opinions and sentiments towards an application. The App Review Classifier project leverages machine learning techniques to automatically analyze and classify app reviews in five categories. By accurately identifying the sentiment behind user reviews, this project can provide valuable insights to app developers and businesses for enhancing their products and services.
 
-#Introduction
+# Introduction
 In this project, we aim to build a sentiment classifier for app reviews. The code provided performs the following steps:
 
 Data Extraction: Reads the app review data from CSV files.
@@ -12,12 +12,12 @@ Model Training: Uses a Random Forest Classifier to train a sentiment classificat
 
 Model Evaluation: Evaluates the trained model's performance by predicting the sentiment labels for a test dataset and calculating the accuracy.
 
-#Requirements
+# Requirements
 
 The code is implemented in Python and requires the following dependencies:
 pandas numpy nltk scikit-learn
 
-#Data Preprocessing
+# Data Preprocessing
 
 The preprocessing steps applied to the app review data include:
 
@@ -41,7 +41,7 @@ Chat words and emojis are common in informal text such as app reviews. Convertin
 
 By applying these preprocessing steps, the app review data is transformed into a clean and standardized format, making it more suitable for training a sentiment classification model. These steps help in reducing noise, improving model performance, and ensuring that the model captures the essential sentiment information from the reviews.
 
-#Model Training
+# Model Training
 
 The sentiment classification model is trained using a Random Forest Classifier. Random Forest is an ensemble learning method that combines multiple decision trees to make predictions. Each tree in the forest is trained on a subset of the data, and the final prediction is made by averaging the predictions of all the individual trees.
 
